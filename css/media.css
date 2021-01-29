@@ -1,0 +1,275 @@
+/* ----- max-width: 1050px ---------------- */
+@media (max-width: 1050px) {
+  .about-us {
+    background-image: none;
+ }
+
+  .about-us__content img {
+    display: none;
+ } 
+
+  .about-us__inner {
+    display: block;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+
+  .about-us__title {
+    padding-top: 50px;
+ }
+
+  .our-offer {
+    top: -20px;
+ }
+
+}
+
+
+/* ----- max-width: 980px ---------------- */
+@media (max-width: 980px) {
+  .logo__img {
+    padding-left: 10px;
+  }
+
+  .top__title {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    max-width: 900px;
+    font-family: 'Black Han Sans', sans-serif;
+    top: 260px;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+
+  .top__title h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .top__title p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    color: #ffffff;
+  }
+
+  .top__img {
+    background-image: url(../img/main-baner-empty.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .header__inner {
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 25px;
+  }
+
+  .menu {
+    order: 1;
+    width: 100%;
+  }
+
+  .menu__list {
+    justify-content: flex-end;
+    padding-top: 30px;
+  }
+
+  .top__inner {
+    background-image: none;
+  }
+
+  .top__inner {
+    margin: 50px 36px;
+  }
+
+  .header__inner,
+  .our-offer__inner {
+    display: block;
+  }
+
+  .step-work {
+    background-image: none;
+  }
+
+  .step-work__textbox {
+    padding-top: 460px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+
+  .our-team {
+    background-image: none;
+    padding-top: 0;
+    margin-top: 380px;
+    padding-bottom: 473px;
+  }
+
+  .choose_slider_items .previous_item {
+    left: 140px;
+    top: 300px;
+    right: 100px;
+  }
+  
+  .choose_slider_items .current_item {
+    top: 240px;
+    left: 36px;
+  }
+  
+  .choose_slider_items .next_item {
+    top: 225px;
+    left: 70px;
+  }
+  
+  .choose_slider_items .next_hidden {
+    left: 0;
+    top: 300px;
+  }
+
+  .comments, .footer {
+    background-image: none;
+  }
+
+  .comments__inner-img {
+    display: none;
+  }
+
+  .footer__menu-email,
+  .footer__menu-phone,
+  .footer__menu-office,
+  .footer__menu-email::before,
+  .footer__menu-phone::before,
+  .footer__menu-office::before {
+    padding-top: 50px;
+  }
+}
+
+
+/* ----- max-width: 560px ---------------- */
+@media (max-width: 560px) {
+
+  
+  .header__inner {
+    display: block;
+  }
+
+  .logo {
+    z-index: 10;
+    position: relative;
+  }
+
+  .menu__list.menu__list--active {
+    transform: translateY(0);
+    transition: all .5s;
+  }
+
+  /* Подложка для Меню мобильной версии */
+  .menu__list {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+    transition: all .5s;
+    transform: translateY(-300%);
+  }
+
+  .menu__list-link {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .menu__btn {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    z-index: 10;
+  }
+
+  .user-nav {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .menu__list-item + .menu__list-item {
+    margin-left: 0;
+  }
+
+  .menu__list-link {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  .our-offer {
+    background-image: none;
+  }
+
+  .our-offer__subtitle-1::before,
+  .our-offer__subtitle-2::before,
+  .our-offer__subtitle-3::before,
+  .our-offer__subtitle-4::before,
+  .our-offer__subtitle-5::before,
+  .our-offer__subtitle-6::before {
+    left: -70px;
+  }
+
+  .uor-team__title {
+    padding-top: 100px;
+    padding-bottom: 200px;    
+  }
+
+  .comments__title {
+    padding-left: 40px;
+  }
+
+  .comments__blockquote-img {
+    margin-left: 0;
+  }
+
+  .blockquote {
+    padding-top: 60px;
+  }
+
+  .slider__item-name-center {
+    margin-top: -80px;
+    }
+  
+    .slider__item-position {
+    margin-top: -14px;
+    padding-left: 35px;
+    }
+    
+    .slider__item-name {
+    margin-top: -97px;
+    }
+
+}
+
+/* ----- max-width: 400px ---------------- */
+@media (max-width: 400px) {
+
+  .imgbox-img {
+  display: none;
+  }
+
+  .step-work__textbox {
+    padding-top: 190px;
+    padding-bottom: 80px;
+  }
+}

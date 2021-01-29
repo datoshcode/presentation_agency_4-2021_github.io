@@ -1,0 +1,433 @@
+<!-- 
+Сайт свёрстан по макету "Agency";
+Автор вёрстки: Андрей Овчаров;
+Дата вёрстки: 27.01.2021;
+E-mail: datoshcode@gmail.com.
+Все авторские права на графический макет, принадлежат его автору. 
+Сайт сверстан с ознакомительной целью, без получения коммерческой выгоды.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency</title>
+
+    <!-- Внешние веб-шрифты: 
+font-family: 'Black Han Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif; 
+-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Lato:wght@700&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Внешние стили -->
+    <!-- Сброс стилей браузеров -->
+    <link rel="stylesheet" href="css/reset+.css" />
+
+    <!-- Стили иконочных шрифтов -->
+    <link rel="stylesheet" href="css/fonts.css" />
+
+    <!-- Основные стили сайта -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Стили адаптива сайта -->
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <!-- Вложенность шапки сайта -->
+        <div class="header__inner">
+          <!-- Логотип шапки сайта -->
+          <a class="logo" href="#">
+            <img class="logo__img" src="img/logo.png" alt="Logo" />
+          </a>
+
+          <!-- Навигационное меню -->
+          <nav class="menu">
+            <div class="menu__btn">
+              <span></span>
+            </div>
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link"> Home </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link"> About us </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link"> Team </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link"> Services </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link"> Process </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link"> Clients </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Work</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Ссылки для формы поиска и перехода на Facebook -->
+          <div class="user-nav">
+            <a class="user-nav__link-search" href="#"></a>
+            <a
+              class="user-nav__link-facebook"
+              href="#"
+              title="Наша страница на Facebook"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Верхний банер сайта -->
+    <section class="top">
+      <div class="top__img"></div>
+      <div class="container">
+        <!-- Заголовок для мобильной версии -->
+        <div class="top__title">
+          <h1>Think outside</h1>
+          <p>Of the box</p>
+        </div>
+
+        <!-- Кнопка "Read more" -->
+        <div class="top__inner">
+          <a class="top__link" href="#">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок "Who we are" -->
+    <section class="about-us">
+      <div class="container">
+        <div class="about-us__content">
+          <div class="about-us__inner">
+            <!-- Заголовок -->
+            <h2 class="about-us__title">Who we are</h2>
+            <p class="about-us__text">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
+            </p>
+            <!-- Кнопка "Read more" -->
+            <a class="link-btn" href="#">Read more</a>
+          </div>
+          <img src="img/infobox-1/macbook.png" alt="macbook" />
+        </div>
+      </div>
+      <div class="about-us__bg"></div>
+    </section>
+
+    <!--Блок "What we do"-->
+    <section class="our-offer">
+      <div class="container">
+        <h2 class="our-offer__title">What we do</h2>
+
+        <!-- Перечень важных качество компании -->
+        <div class="our-offer__inners">
+          <div class="our-offer__inner">
+            <h4 class="our-offer__subtitle-1">Creative Work</h4>
+            <p class="our-offer__text">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium.
+            </p>
+          </div>
+
+          <div class="our-offer__inner">
+            <h4 class="our-offer__subtitle-2">We do Best</h4>
+            <p class="our-offer__text">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium.
+            </p>
+          </div>
+
+          <div class="our-offer__inner">
+            <h4 class="our-offer__subtitle-3">Best Company</h4>
+            <p class="our-offer__text">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium.
+            </p>
+          </div>
+          <div class="trinity-red">
+            <div class="our-offer__inner">
+              <h4 class="our-offer__subtitle-4">Nice Idea</h4>
+              <p class="our-offer__text">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium.
+              </p>
+            </div>
+
+            <div class="our-offer__inner">
+              <h4 class="our-offer__subtitle-5">Professional</h4>
+              <p class="our-offer__text">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium.
+              </p>
+            </div>
+
+            <div class="our-offer__inner">
+              <h4 class="our-offer__subtitle-6">Great Services</h4>
+              <p class="our-offer__text">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок "How we works" -->
+    <section class="step-work">
+      <div class="container">
+        <div class="step-work__textbox">
+          <!-- Заголовок -->
+          <h2 class="step-work__title">How we works</h2>
+          <p class="step-work__text">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium.Sed ut perspiciatis unde omnis
+            iste natus error sit voluptatem accusantium doloremque laudantium.
+          </p>
+
+          <!-- Кнопка "Read more" -->
+          <a class="link-btn" href="#">Read more</a>
+        </div>
+      </div>
+
+      <div class="step-work__imgbox">
+        <div class="imgbox">
+          <img
+            class="imgbox-img"
+            src="img/infobox-3/image-1.png"
+            alt="Image collection"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Our creative team -->
+    <section class="our-team">
+      <div class="container">
+        <div class="our-team-inners">
+          <!-- Заголовок -->
+          <h2 class="uor-team__title">Our creative team</h2>
+          <div class="choose_slider">
+            <div class="choose_slider_items">
+              <ul id="mySlider1">
+                <li class="current_item">
+                  <a href="#">
+                    <img src="img/infobox-4/image-1.png" />
+                    <p class="slider__item-name">John Doe</p>
+                  </a>
+                </li>
+                <li class="current_item">
+                  <a href="#">
+                    <img src="img/infobox-4/image-2.png" />
+                    <p class="slider__item-name-center">Silvia Doe</p>
+                    <p class="slider__item-position">Designer</p>
+                  </a>
+                </li>
+                <li class="current_item">
+                  <a href="#">
+                    <img src="img/infobox-4/image-3.png" />
+                    <p class="slider__item-name">Maria Doe</p>
+                  </a>
+                </li>
+                <li class="current_item">
+                  <a href="#">
+                    <img src="img/infobox-4/image-1.png" />
+                    <p class="slider__item-name">John Doe</p>
+                  </a>
+                </li>
+                <li class="current_item">
+                  <a href="#">
+                    <img src="img/infobox-4/image-2.png" />
+                    <p class="slider__item-name-center">Silvia Doe</p>
+                    <p class="slider__item-position">Designer</p>
+                  </a>
+                </li>
+                <li class="current_item">
+                  <a href="#">
+                    <img src="img/infobox-4/image-3.png" />
+                    <p class="slider__item-name">Maria Doe</p>
+                  </a>
+                </li>
+                <li class="current_item">
+                  <a href="#">
+                    <img src="img/infobox-4/image-1.png" />
+                    <p class="slider__item-name">John Doe</p>
+                  </a>
+                </li>
+                <li class="current_item">
+                  <a href="#">
+                    <img src="img/infobox-4/image-2.png" />
+                    <p class="slider__item-name-center">Silvia Doe</p>
+                    <p class="slider__item-position">Designer</p>
+                  </a>
+                </li>
+                <li class="current_item">
+                  <a href="#">
+                    <img src="img/infobox-4/image-3.png" />
+                    <p class="slider__item-name">Maria Doe</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Блок с кнопками слайдера -->
+      <div class="slider__btn">
+        <div><a id="btn_prev1" href="#"></a></div>
+        <div><a id="btn_next1" href="#"></a></div>
+      </div>
+    </section>
+
+    <!-- Блок "What client says" -->
+    <section class="comments">
+      <div class="container">
+        <div class="comments__inners">
+          <!-- Заголовок -->
+          <h2 class="comments__title">What client says</h2>
+          <div class="comments__inner">
+            <img
+              class="comments__inner-img"
+              src="img/infobox-5/image-1.png"
+              alt="Girl"
+            />
+
+            <!-- Цитата -->
+            <div class="comments__blockquote">
+              <blockquote class="blockquote">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium.Sed ut perspiciatis unde omnis
+                iste natus error sit voluptatem accusantium doloremque
+                laudantium.
+              </blockquote>
+
+              <!-- Автор цитаты -->
+              <p class="authot-blockquote">Jinny Snow, Company CEO</p>
+
+              <div class="comments__blockquote-img">
+                <img
+                  class="blockquote-img-1"
+                  src="img/infobox-5/image-2.png"
+                  alt="Сlient"
+                />
+                <img
+                  class="blockquote-img-2"
+                  src="img/infobox-5/image-3.png"
+                  alt="Сlient"
+                />
+                <img
+                  class="blockquote-img-3"
+                  src="img/infobox-5/image-4.png"
+                  alt="Сlient"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <!-- Заголовок -->
+          <h2 class="footer__title">Get in touch</h2>
+
+          <!-- Подраздел "Контакты" -->
+          <div class="footer__contacts">
+            <!-- Email-->
+            <div class="footer__menu-email">
+              <h4 class="footer__menu-title">Email</h4>
+              <ul class="footer__menu-list">
+                <li class="footer__menu-iten">free@psdfreebies.com</li>
+                <li class="footer__menu-iten">free@psdfreebies.com</li>
+              </ul>
+            </div>
+
+            <!-- Телефон -->
+            <div class="footer__menu-phone">
+              <h4 class="footer__menu-title">Phone</h4>
+              <ul class="footer__menu-list">
+                <li class="footer__menu-iten">+123 456 7890</li>
+                <li class="footer__menu-iten">+123 456 7890</li>
+              </ul>
+            </div>
+
+            <!-- Адрес -->
+            <div class="footer__menu-office">
+              <h4 class="footer__menu-title">Office</h4>
+              <ul class="footer__menu-list">
+                <li class="footer__menu-iten">123, Main Road, New City,</li>
+                <li class="footer__menu-iten">My Country 123456</li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Мы в социальных сетях -->
+          <div class="footer__menu-networks">
+            <ul class="footer__menu-networks-list">
+              <!-- Facebook -->
+              <li class="footer__networks-item">
+                <a class="networks-link-facebook" href="#"></a>
+              </li>
+              <!-- Google+ -->
+              <li class="footer__networks-item">
+                <a class="networks-link-google" href="#"></a>
+              </li>
+              <!-- Вконтакте -->
+              <li class="footer__networks-item">
+                <a class="networks-link-vk" href="#"></a>
+              </li>
+              <!-- YouTube -->
+              <li class="footer__networks-item">
+                <a class="networks-link-youtube" href="#"></a>
+              </li>
+              <!-- Linkedin -->
+              <li class="footer__networks-item">
+                <a class="networks-link-linkedin" href="#"></a>
+              </li>
+              <!-- Digg -->
+              <li class="footer__networks-item">
+                <a class="networks-link-digg" href="#"></a>
+              </li>
+              <!-- Deviantart -->
+              <li class="footer__networks-item">
+                <a class="networks-link-deviantart" href="#"></a>
+              </li>
+            </ul>
+          </div>
+          <!-- Авторское право -->
+          <div class="copyright">
+            <p>
+              Copyright &copy; 2017. PSDFreebies.com | Best PSD Template for
+              freelancer and agencies
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Скрипты для сайта -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="js/jquery.cssslider.min.js"></script>
+    <script src="js/jquery.cssslider.js"></script>
+    <script src="js/animated-slider.js"></script>
+  </body>
+</html>
